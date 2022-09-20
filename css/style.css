@@ -41,20 +41,22 @@ a { color:var(--white); text-decoration: none;}
 .sidebar {
   border-right: solid 1px #cdcdcd;
 }
-figure {
+.logo1 {
   text-align: center;
 }
 
 /* --- header --- */
-.logo { 
-  margin-left:  20px;
+.logo img {
+  text-align: start;
+  margin-left:  30px;
+  width: 250px;
 }
 .pesquisa {
   width: 400px;
   height: 40px;
-  margin-left: 250px;
+  margin-left: 400px;
   position: absolute;
-  top: 35px;
+  top: 65px;
 }
 #texto {
   width: 250px;
@@ -144,4 +146,10 @@ h1, h2, h3, p, nav {
   position: relative;
   top: -25px;
 }
-
+.figure logo {
+  margin-left:  20px;
+  justify-content: flex-start;
+}
+.pesquisa {
+  
+}
