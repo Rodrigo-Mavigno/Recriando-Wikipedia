@@ -98,8 +98,22 @@ h2 {
   filter: drop-shadow(.10em .20em 0.5em);
 }
 .img1 img {
+  width: 500px;
   filter: drop-shadow(.10em .20em 0.5em);
   border-radius: 10px;
+  margin-left: 180px;
+}
+.img2 img {
+  width: 800px;
+  filter: drop-shadow(.10em .20em 0.5em);
+  border-radius: 10px;
+  margin-left: 40px;
+}
+.img3 img {
+  width: 800px;
+  filter: drop-shadow(.10em .20em 0.5em);
+  border-radius: 10px;
+  margin-left: 40px;
 }
 h3 {
   color: var(--black);
@@ -123,11 +137,17 @@ h1, h2, h3, p, nav {
 .sidebar a {
   margin: 10px; 
 }
+.sidebar h2 {
+  text-align:center;
+}
 .anchors {
   background-color: rgba(14, 52, 14, 0.389);
 }
 .anchors li {
-  margin: 10px;
+  margin: 0px;
+}
+.anchors h2 {
+  text-align:center;
 }
 .footer a {
   color: var(--black)
@@ -150,6 +170,6 @@ h1, h2, h3, p, nav {
   margin-left:  20px;
   justify-content: flex-start;
 }
-.pesquisa {
-  
+figcaption {
+ text-align: center; 
 }
